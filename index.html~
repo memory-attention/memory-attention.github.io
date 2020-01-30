@@ -29,8 +29,8 @@
     <div class="container" style="max-width:1200px">
         <div class='row mt-5 mb-3'>
             <div class='col text-center'>
-                <p class="h1">Memory Attention: Robust Attention Model with</p>
-                <p class="h1">Gating Method for End-to-End Speech Synthesis</p>
+                <p class="h1 font-weight-normal">Memory Attention: Robust Attention Model with</p>
+                <p class="h1 font-weight-normal">Gating Method for End-to-End Speech Synthesis</p>
             </div>
         </div>
     </div>
