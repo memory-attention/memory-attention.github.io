@@ -160,7 +160,7 @@
                         <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/test.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+                                <source src="./assets/LJ/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/griffin/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -187,7 +187,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/wavenet/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/FA/2.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -200,7 +200,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/waveglow/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -223,7 +223,7 @@
                         <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/test.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+                                <source src="./assets/LJ/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
@@ -234,7 +234,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/griffin/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -249,7 +249,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/wavenet/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/FA/3.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -260,7 +260,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/waveglow/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -291,7 +291,7 @@
                         <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/test.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+                                <source src="./assets/NOR/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
@@ -302,7 +302,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/griffin/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -317,7 +317,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/wavenet/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/FA/1.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -328,7 +328,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/waveglow/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -347,7 +347,7 @@
                         <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/test.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+                                <source src="./assets/NOR/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
@@ -358,7 +358,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/griffin/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -373,7 +373,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/wavenet/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/FA/2.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -384,7 +384,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/waveglow/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -402,7 +402,7 @@
                         <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/test.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+                                <source src="./assets/NOR/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
@@ -413,7 +413,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/griffin/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -428,7 +428,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/wavenet/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/FA/3.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -439,7 +439,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/waveglow/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/NOR/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
