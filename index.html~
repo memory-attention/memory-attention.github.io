@@ -29,8 +29,8 @@
     <div class="container" style="max-width:1200px">
         <div class='row mt-5 mb-3'>
             <div class='col text-center'>
-                <p class="h1 font-weight-normal">Memory Attention: Robust Attention Model with</p>
-                <p class="h1 font-weight-normal">Gating Method for End-to-End Speech Synthesis</p>
+                <p class="h1">Memory Attention: Robust Attention Model with</p>
+                <p class="h1">Gating Method for End-to-End Speech Synthesis</p>
             </div>
         </div>
     </div>
@@ -101,7 +101,7 @@
                         <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
                         <div style='height: 60px; vertical-align: middle'>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/test.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+                                <source src="./assets/LJ/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
                             </audio>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload nofoobar" style='display: inline-block; padding:8px '>
-                                <source src="./assets/griffin/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -125,7 +125,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/griffin/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/FA/1.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
@@ -136,7 +136,7 @@
                         </div>
                         <div style='height: 60px; '>
                             <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/waveglow/1.wav" class="img-fluid rounded mx-auto d-block"
+                                <source src="./assets/LJ/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
                                     alt="temp">
                             </audio>
                         </div>
