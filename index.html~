@@ -735,7 +735,7 @@
                 <p class='h6 font-weight-normal '>영미야, 어려운 일이 있으면 오빠한테 의지해.</p>
             </div>
 
-			<table border="1" bordercolor="c8c8c8" width="900">
+			<table border="1" bordercolor="c8c8c8" width="900" style='margin-bottom: 40px;'>
 				<tbody>
 					<tr>
 						<th width="15%" style="text-align: center" scope="col">Attention</th>
