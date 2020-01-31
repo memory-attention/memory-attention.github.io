@@ -29,8 +29,8 @@
     <div class="container" style="max-width:1200px">
         <div class='row mt-5 mb-3'>
             <div class='col text-center'>
-                <p class="h1">Memory Attention: Robust Alignment using Gating Mechanism</p>
-                <p class="h1">for End-to-End Speech Synthesis</p>
+                <p class="h2">Memory Attention: Robust Alignment using Gating Mechanism</p>
+                <p class="h2">for End-to-End Speech Synthesis</p>
             </div>
         </div>
     </div>
@@ -280,7 +280,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h4 font-weight-normal '>제가 억울하게 십년 동안 옥살이를 했다고 권변호사가 인정을 하면 그걸 증거로 재심을 청구할 생각으로 녹음기를 갖고 갔었습니다.</p>
+                <p class='h6 font-weight-normal '>제가 억울하게 십년 동안 옥살이를 했다고 권변호사가 인정을 하면 그걸 증거로 재심을 청구할 생각으로 녹음기를 갖고 갔었습니다.</p>
             </div>
 
             <div style='display: flex'>
@@ -336,7 +336,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>이거 수현씨가 부탁했던 논문들하고, 제가 알아서 더 좀 챙겨왔어요.</p>
+                <p class='h6 font-weight-normal '>이거 수현씨가 부탁했던 논문들하고, 제가 알아서 더 좀 챙겨왔어요.</p>
             </div>
 
             <div style='display: flex'>
@@ -391,7 +391,7 @@
                 </div>
             </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>제가 꼭 해야 됩니까?</p>
+                <p class='h6 font-weight-normal '>저희야말로 황사장님 덕분에 학생들에게 훌륭한 급식을 할 수 있어서 감사하고 있습니다.</p>
             </div>
 
             <div style='display: flex'>
@@ -452,7 +452,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>이 세상 어딜가도, 누구 아들, 어느 회사 누구, 그런데 너한테만큼은 인간 윤형철 그대로잖아.</p>
+                <p class='h6 font-weight-normal '>이 세상 어딜가도, 누구 아들, 어느 회사 누구, 그런데 너한테만큼은 인간 윤형철 그대로잖아.</p>
             </div>
 
             <div style='display: flex'>
@@ -508,7 +508,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>당신이 내 행복에 이렇게 관심이 많은데, 나만 행복해질 수 있나? 은혜를 갚아야지.</p>
+                <p class='h6 font-weight-normal '>당신이 내 행복에 이렇게 관심이 많은데, 나만 행복해질 수 있나? 은혜를 갚아야지.</p>
             </div>
 
             <div style='display: flex'>
@@ -563,7 +563,7 @@
                 </div>
             </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>남자회원하고 여자 트레이너하고 사귄다는데, 그럼 유팀장이겠어?</p>
+                <p class='h6 font-weight-normal '>남자회원하고 여자 트레이너하고 사귄다는데, 그럼 유팀장이겠어?</p>
             </div>
 
             <div style='display: flex'>
@@ -623,7 +623,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>끝나면 총알같이 갈게요.</p>
+                <p class='h6 font-weight-normal '>아무리 좋은 프로라도 우리 실정이란게 있으니까.</p>
             </div>
 
             <div style='display: flex'>
@@ -679,7 +679,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>저 요즘 요가하는데 어머니도 같이 하시면 좋을 거 같애서요.</p>
+                <p class='h6 font-weight-normal '>난 물건을 깎는 게 아니라, 불가능이 과연 없는 건지 시험해 보는중이란 말이예요.</p>
             </div>
 
             <div style='display: flex'>
@@ -734,7 +734,7 @@
                 </div>
             </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>한글</p>
+                <p class='h6 font-weight-normal '>어쩌다보니까 헤어지고도 만나게 되여.</p>
             </div>
 
             <div style='display: flex'>
@@ -793,7 +793,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>그게 무슨 소리야, 손님은 오지 않았어.</p>
+                <p class='h6 font-weight-normal '>그게 무슨 소리야, 손님은 오지 않았어.</p>
             </div>
 
             <div style='display: flex'>
@@ -849,7 +849,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>카드키가 떨어져있지 않았다면, 사무실에 들어가지도 못했습니다.</p>
+                <p class='h6 font-weight-normal '>카드키가 떨어져있지 않았다면, 사무실에 들어가지도 못했습니다.</p>
             </div>
 
             <div style='display: flex'>
@@ -904,7 +904,7 @@
                 </div>
             </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>아내를 처음 만난건 미국에서 공부할때였는데, 유학생들 사이에서 유명한 여자였어요.</p>
+                <p class='h6 font-weight-normal '>아내를 처음 만난건 미국에서 공부할때였는데, 유학생들 사이에서 유명한 여자였어요.</p>
             </div>
 
             <div style='display: flex'>
@@ -963,7 +963,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h3 font-weight-normal '>전신마취를 하거든, 마취를 하니까 아플 리가 없는데도 너무 너무 아팠어.</p>
+                <p class='h6 font-weight-normal '>순경아저씨 얘는 지금 어린애에요.</p>
             </div>
 
             <div style='display: flex'>
@@ -1019,7 +1019,7 @@
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h3 font-weight-normal '>처음 며칠은 무릎 꿇고 빌더라구, 용서해달라구.</p>
+                <p class='h6 font-weight-normal '>바가지로 때렸어요, 그 어린 나를...</p>
             </div>
 
             <div style='display: flex'>
@@ -1074,7 +1074,7 @@
                 </div>
             </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
-                <p class='h5 font-weight-normal '>한글</p>
+                <p class='h6 font-weight-normal '>영미야, 어려운 일이 있으면 오빠한테 의지해.</p>
             </div>
 
             <div style='display: flex'>
