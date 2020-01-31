@@ -27,22 +27,24 @@
 
     <!-- Title -->
     <div class="container" style="max-width:1200px">
-        <div class='row mt-5 mb-3'>
+        <hr style="border: solid 1px grey;">
+        <div class='row mt-4 mb-4'>
             <div class='col text-center'>
                 <p class="h2">Memory Attention: Robust Alignment using Gating Mechanism</p>
                 <p class="h2">for End-to-End Speech Synthesis</p>
             </div>
         </div>
+        <hr style="border: solid 1px grey;">
     </div>
-    <div class="container" style="max-width:1000px">
+    <div class="container" style="max-width:1200px">
         <!-- authors -->
         <!-- <div class='row text-center h5 font-weight-normal pl-4 pr-4 mb-4' style="font-style:italic">
                 <a class="col-md-3 col-xs-6 text-dark" href="http://www.naver.com"><span>Author 1*</span></a>
                 <a class="col-md-3 col-xs-6 text-dark" href="http://www.naver.com"><span>Author 2</span></a>
             </div> -->
-        <div class='row text-center h4 font-weight-normal pl-1 pr-1 mb-1'>
+        <!--<div class='row text-center h4 font-weight-normal pl-1 pr-1 mt-1 mb-5'>
             <a class="col-md-12 col-xs-12 text-dark"><span>Anonymous Authors</span></a>
-        </div>
+        </div> -->
 
         <!-- affiliations -->
 
@@ -63,7 +65,6 @@
 
         <!-- Paper section -->
         <div>
-            <hr>
             <div class='col text-center'>
                 <p class='h3 font-weight-bold '>Abstract</p>
 
@@ -76,12 +77,12 @@
         </div>
 
 
+        <hr>
         <!-- Audio Samples -->
         <div class='col'>
-            <hr>
-            <div class='row text-center'>
+            <div class='row'>
                 <div class='col'>
-                    <p class='h3 font-weight-normal '>Single Speaker Audio Samples</p>
+                    <p class='h4'>Single Speaker Audio Samples</p>
                 </div>
             </div>
 
@@ -89,189 +90,128 @@
                 <p class='h4'>Sample1</p>
             </div>
 
-            <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
+            <div class='row' style='margin-top: 5px; margin-bottom: 10px;'>
                 <p class='h5 font-weight-normal '>It is very difficult even for men to break through such solid mass.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/LSA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/LJ/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload nofoobar" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/FA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/FA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/DCA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h4'>Sample2</p>
             </div>
 
-            <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
+            <div class='row' style='margin-top: 5px; margin-bottom: 10px;'>
                 <p class='h5 font-weight-normal '>Shell said on Tuesday that it would seek from British authorities a license for onshore disposal.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/LSA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/LJ/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/FA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/FA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/DCA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h4'>Sample3</p>
             </div>
 
-            <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
+            <div class='row' style='margin-top: 5px; margin-bottom: 10px;'>
                 <p class='h5 font-weight-normal '>Saxon nodded, and the boy frowned.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/LSA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/LJ/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/FA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/LJ/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/FA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/LJ/DCA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
             </div>
+        <hr>
 
         <div class='col'>
-            <hr>
-            <div class='row text-center'>
+            <div class='row'>
                 <div class='col'>
-                    <p class='h3 font-weight-normal '>Emotion Speech Synthesis Audio Samples</p>
+                    <p class='h4'>Emotion Speech Synthesis Audio Samples</p>
                 </div>
             </div>
 
@@ -283,169 +223,109 @@
                 <p class='h6 font-weight-normal '>제가 억울하게 십년 동안 옥살이를 했다고 권변호사가 인정을 하면 그걸 증거로 재심을 청구할 생각으로 녹음기를 갖고 갔었습니다.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/LSA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/NOR/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/FA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/FA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/DCA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>이거 수현씨가 부탁했던 논문들하고, 제가 알아서 더 좀 챙겨왔어요.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/LSA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/NOR/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/FA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/DCA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/FA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>저희야말로 황사장님 덕분에 학생들에게 훌륭한 급식을 할 수 있어서 감사하고 있습니다.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/LSA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/NOR/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/FA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/NOR/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/FA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/DCA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h4'>Angry Sample</p>
@@ -455,168 +335,109 @@
                 <p class='h6 font-weight-normal '>이 세상 어딜가도, 누구 아들, 어느 회사 누구, 그런데 너한테만큼은 인간 윤형철 그대로잖아.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/LSA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/ANG/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/FA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/FA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/DCA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>당신이 내 행복에 이렇게 관심이 많은데, 나만 행복해질 수 있나? 은혜를 갚아야지.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/LSA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/ANG/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/FA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/DCA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/FA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>남자회원하고 여자 트레이너하고 사귄다는데, 그럼 유팀장이겠어?</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/LSA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/ANG/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/FA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/ANG/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/FA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/ANG/DCA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h4'>Joy Sample</p>
@@ -626,168 +447,110 @@
                 <p class='h6 font-weight-normal '>아무리 좋은 프로라도 우리 실정이란게 있으니까.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/LSA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/JOY/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/FA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/FA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/DCA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>난 물건을 깎는 게 아니라, 불가능이 과연 없는 건지 시험해 보는중이란 말이예요.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/LSA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/JOY/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/FA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/DCA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/FA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>어쩌다보니까 헤어지고도 만나게 되여.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/LSA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/JOY/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/FA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/JOY/DCA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/FA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/JOY/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h4'>Fear Sample</p>
             </div>
@@ -796,168 +559,110 @@
                 <p class='h6 font-weight-normal '>그게 무슨 소리야, 손님은 오지 않았어.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/LSA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/FEA/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/FA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/FA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/DCA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>카드키가 떨어져있지 않았다면, 사무실에 들어가지도 못했습니다.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/LSA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/FEA/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/FA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/DCA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/FA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>아내를 처음 만난건 미국에서 공부할때였는데, 유학생들 사이에서 유명한 여자였어요.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/FEA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/FEA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/FEA/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/FA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/FEA/DCA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/FA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/FEA/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h4'>Sad Sample</p>
             </div>
@@ -966,169 +671,109 @@
                 <p class='h6 font-weight-normal '>순경아저씨 얘는 지금 어린애에요.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/LSA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/SAD/MEM/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/LSA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/FA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/DCA/1.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/FA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/DCA/1.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>바가지로 때렸어요, 그 어린 나를...</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/LSA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/SAD/MEM/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/FA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/DCA/2.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/LSA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/FA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/DCA/2.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
                 <p class='h6 font-weight-normal '>영미야, 어려운 일이 있으면 오빠한테 의지해.</p>
             </div>
 
-            <div style='display: flex'>
+			<table border="1" bordercolor="c8c8c8" width="900">
+				<tbody>
+					<tr>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+						<th width="15%" style="text-align: center" scope="col">Attention</th>
+						<th width="35%" style="text-align: center" scope="col">Sample</th>
+					</tr>
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">MEM</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/NOR/SAD/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">LSA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/LSA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
 
-                <div style='flex: 1; '>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <p style='width: 120px; padding: 15px 0; text-align: center;'>MEM</p>
-                        <div style='height: 60px; vertical-align: middle'>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px'>
-                                <source src="./assets/SAD/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>LSA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/LSA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div style='flex: 1;'>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>FA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/FA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                    <div class='row' style='width: 450px; height:50px; '>
-                        <div style='height: 60px;'>
-                            <p style='height: 60px; width: 120px; padding: 15px 0; text-align: center;'>DCA</p>
-                        </div>
-                        <div style='height: 60px; '>
-                            <audio controls controlsList="nodownload" style='display: inline-block; padding:8px '>
-                                <source src="./assets/SAD/DCA/3.wav" class="img-fluid rounded mx-auto d-block"
-                                    alt="temp">
-                            </audio>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+					<tr>
+						<th width="15%" style="text-align: center" scope="row">FA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/FA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+						<th width="15%" style="text-align: center" scope="row">DCA</th>
+						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
+							<source src="./assets/SAD/DCA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+						</audio></td>
+					</tr>
+				</tbody>
+			</table>
 
         </div>
 
