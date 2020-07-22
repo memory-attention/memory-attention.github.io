@@ -38,10 +38,12 @@
     </div>
     <div class="container" style="max-width:1200px">
         <!-- authors -->
-        <!-- <div class='row text-center h5 font-weight-normal pl-4 pr-4 mb-4' style="font-style:italic">
-                <a class="col-md-3 col-xs-6 text-dark" href="http://www.naver.com"><span>Author 1*</span></a>
-                <a class="col-md-3 col-xs-6 text-dark" href="http://www.naver.com"><span>Author 2</span></a>
-            </div> -->
+        <div class='row text-center h5 font-weight-normal pl-4 pr-4 mb-4' style="font-style:italic">
+                <a class="col-md-3 col-xs-6 text-dark"><span>Joun Yeop Lee</span></a>
+                <a class="col-md-3 col-xs-6 text-dark"><span>Sung Jun Cheon</span></a>
+                <a class="col-md-3 col-xs-6 text-dark"><span>Byoung Jin Choi</span></a>
+                <a class="col-md-3 col-xs-6 text-dark"><span>Nam Soo Kim</span></a>
+            </div> 
         <!--<div class='row text-center h4 font-weight-normal pl-1 pr-1 mt-1 mb-5'>
             <a class="col-md-12 col-xs-12 text-dark"><span>Anonymous Authors</span></a>
         </div> -->
@@ -70,7 +72,7 @@
 
                 <div class="container" style="max-width:850px; margin-top: 20px; margin-bottom: 40px">
                     <p style='line-height:1.3; font-size:large; text-align: justify'>
-                        The main objective of speech synthesis is to take a sequence of phones as input and generate a speech sample sequence, converting each input phone to corresponding multiple speech frames. Recent end-to-end speech synthesis systems usually employ attention mechanisms for such conversion. Attention-based end-to-end speech synthesis has shown state-of-the-art performance in speech synthesis, but generating stable and robust attention alignment to overcome the alignment failures such as repeating, missing and mumbling phones is still an ongoing challenge. In order to mitigate these alignment failures, we propose a novel attention method called memory attention for end-to-end speech synthesis, which is inspired by the gating mechanism of long-short term memory (LSTM). Leveraging the sequence modeling power of the gating technique, memory attention obtains the stable alignment from the content-based and location-based features. For performance evaluation we compared our proposed memory attention algorithm with various conventional attention techniques in single speaker and emotional speech synthesis scenarios. From the results, we conclude that memory attention can generate speech with large variability robustly.
+                        Recent end-to-end speech synthesis systems usually employ attention techniques to align an input text sequence against a mel-spectrogram sequence. Attention-based end-to-end approach has shown state-of-the-art performance in speech synthesis. However, generating stable and robust attention alignment to avoid some serious failures such as repeating, missing, and mumbling phones is still an ongoing challenge. In order to mitigate these alignment failures, we propose a novel attention method called memory attention for end-to-end speech synthesis, which is inspired by the gating mechanism of the long-short term memory (LSTM). Leveraging the sequence modeling power of the gating techniques, memory attention can produce a stable alignment by controlling the amount of content-based and location-based information. For performance evaluation, we compared our proposed memory attention algorithm with various conventional attention techniques in single speaker and emotional speech synthesis scenarios. From the results, we conclude that memory attention can robustly generate various stylish speech.
                     </p>
                 </div>
             </div>
@@ -82,8 +84,25 @@
         <div class='col'>
             <div class='row'>
                 <div class='col'>
-                    <p class='h4 font-weight-bold'>Single Speaker Audio Samples</p>
+                    <p class='h4 font-weight-bold'>Single Speaker Audio Case</p>
                 </div>
+            </div>
+
+            <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
+                <p class='h4'>Model Configurations</p>
+            </div>
+
+            <div class='row' style='margin-top: 5px; margin-bottom: 10px;'>
+                <p class='h5 font-weight-normal '>- Text encoder: 512 embedding dimension, three convolution layers with 512 channels, five kernel size, 256 LSTM units for each direction.</p>
+            </div>
+
+            <div class='row' style='margin-top: 5px; margin-bottom: 10px;'>
+                <p class='h5 font-weight-normal '>- Attention: 128 attention dimension, convolution filter size 32 with 31 kernel size was used for the LSA, FA, and MEM. 64 attention dimension, eight static filters, and eight dynamic filters with length 21, and a length 11 causal prior filter was used for the DCA.</p>
+            </div>
+
+
+            <div class='row' style='margin-top: 5px; margin-bottom: 10px;'>
+                <p class='h5 font-weight-normal '>- Pre-net with 256 number of layers with 256 units, two layers of decoder LSTM with 1,024 units, five convolution layer with 512 channels, and kernel size 5 for postnet.</p>
             </div>
 
             <div class='row' style='margin-top: 40px; margin-bottom: 10px;'>
@@ -634,11 +653,11 @@
 					<tr>
 						<th width="15%" style="text-align: center" scope="row">MEM</th>
 						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
-							<source src="./assets/NOR/FEA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+							<source src="./assets/FEA/MEM/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
 						</audio></td>
 						<th width="15%" style="text-align: center" scope="row">LSA</th>
 						<td width="35%" style="text-align: center"><audio controls controlsList="nodownload" style='display: inline-block; padding:2px'>
-							<source src="./assets/NOR/FEA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
+							<source src="./assets/FEA/LSA/3.wav" class="img-fluid rounded mx-auto d-block" alt="temp">
 						</audio></td>
 					</tr>
 
